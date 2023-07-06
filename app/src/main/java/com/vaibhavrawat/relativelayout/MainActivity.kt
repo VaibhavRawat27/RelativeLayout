@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         btnSubmit?.setOnClickListener {
             val text = etInputNum.text.toString()
             val intValue = text.toInt()
-            println(intValue)
+            //println(intValue)
             tvNumber?.text = intValue.toString()
             // inputNumber = etInputNum.toString().toInt()
             // var intent = Intent(this, MainActivity::class.java)
