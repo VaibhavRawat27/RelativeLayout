@@ -18,6 +18,7 @@
         android:maxLength="5"
         android:paddingTop="20sp"
         android:id="@+id/etInputNum"
+        android:textStyle="bold"
         />
 
     <Button
